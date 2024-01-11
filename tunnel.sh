@@ -1,8 +1,8 @@
 #!/bin/bash
 
-read -p "请输入A端口号:" A_PORT
-read -p "请输入IP地址:" IP
-read -p "请输入B端口号:" B_PORT
+read -p "请输入监听端口号:" A_PORT
+read -p "请输入落地地址:" IP
+read -p "请输入服务端口号:" B_PORT
 
 if ! command -v socat &> /dev/null; then
   apt update
