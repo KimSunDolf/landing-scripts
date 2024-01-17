@@ -10,7 +10,7 @@ if ! command -v socat &> /dev/null; then
 fi
 
 cat <<EOF > /etc/systemd/system/socat-${A_PORT}.service  
-[Unit]  
+[Unit]
 Description=Socat Service
 
 [Service]
