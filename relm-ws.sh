@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # 读取用户输入
-read -p "请输入监听端口 (默认3380): " LISTEN_PORT
-LISTEN_PORT=${LISTEN_PORT:-3380}
+read -p "请输入监听端口 (默认45014): " LISTEN_PORT
+LISTEN_PORT=${LISTEN_PORT:-45014}
 
 read -p "请输入本地转发端口 (默认3380): " LOCAL_PORT
 LOCAL_PORT=${LOCAL_PORT:-3380}
